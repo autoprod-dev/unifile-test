@@ -5,6 +5,9 @@
 <meta name="robots" content="noindex">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Unifile by Autoprod: convert any file (TEST)</title>
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="icon" href="icons/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
 <script>
 /* ============ LICENSE_CONFIG (edit this block to go live; see monetise/SETUP_STEPS.md) ============
  * Everything that was free in Unifile stays free and unlimited. Pro (A$15 one-off) only ADDS:
@@ -598,6 +601,8 @@ table.fmt{border-collapse:collapse; width:100%; min-width:320px}
 @media (max-width:560px){ .niches{grid-template-columns:1fr} }
 footer{margin-top:100px; padding:40px 0 50px; border-top:2px solid color-mix(in srgb, var(--ink) 15%, transparent); color:var(--ink-soft); font-size:.93rem}
 footer .wrap{display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; align-items:center}
+footer .ap-copy{flex-basis:100%; font-size:.8rem; opacity:.8}
+@media print{footer{display:none}}
 
 /* Dialog */
 dialog{border:2.5px solid var(--edge); border-radius:24px; padding:0; width:min(480px, calc(100% - 28px)); background:var(--surface); color:var(--ink); box-shadow:8px 8px 0 var(--shadow)}
@@ -819,6 +824,7 @@ dialog::backdrop{background:rgba(20,14,50,.55)}
   <div class="wrap">
     <span class="brand" style="font-size:1.1rem"><svg aria-hidden="true" style="width:28px;height:28px"><use href="#logo"/></svg>Unifile</span>
     <span>Convert anything, free and unlimited. Unifile by Autoprod.</span>
+    <span class="ap-copy">© 2026 Autoprod. All rights reserved.</span>
   </div>
 </footer>
 
